@@ -1,0 +1,28 @@
+Attribute VB_Name = "mod01_SomeCode"
+'---------------------------------------------------------------------------------------
+' File   : mod01_Code
+' Author : Anthony Malone
+' Date   : 19/10/2017
+' Purpose: Abstracted code previously positioned within command button event handlers
+'---------------------------------------------------------------------------------------
+'@folder("Wrapper")
+Option Compare Database
+Option Explicit
+
+Sub fCode1()
+
+    MsgBox "This is block 1 of some bespoke code running"
+
+End Sub
+
+Sub fCode2()
+
+    MsgBox "This is block 2 of some bespoke code running"
+
+End Sub
+
+Sub CloseForm()
+
+    DoCmd.Close
+    
+End Sub

@@ -1,0 +1,15 @@
+'@Folder("Wrapper")
+Option Compare Database
+Option Explicit
+
+Private Sub Form_Load()
+
+    HandleButtons Me
+    
+End Sub
+
+Private Sub Form_Close()
+
+    ReleaseButtons
+    
+End Sub
